@@ -5,29 +5,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-            <link rel="stylesheet" href="style.css">
+            
 
             <style>
+
         .container {
-                width = 60%;
+                background-color: blue;
+                width: 200px;
+                height: 100px;
+                padding:25px;
+                color:white;
+                align:center;
+                border-top:8px solid yellowgreen;
+                margin:10px;
+                position: absolute; /* you can put absolute ( which depends on the position of the before component), relative is used to move around n stuff */
+                left: 90px;
         }
-    </style>
+
+        .container-1 {
+                background-color: rgb(2, 92, 12);
+                width: 200px;
+                height: 100px;
+                padding:25px; /* adds spacing.gap between the content in the middle*/
+                color:white; 
+                border: 4px solid palevioletred; /* adds a border */
+                margin-bottom:12px;
+                position:absolute;
+                left:400px;
+        }
+
+        .container-2 {
+                background-color: rgb(255, 0, 0);
+                width: 200px;
+                height: 100px;
+                padding:25px 32px 56px 44px; /*you can change the padding for all 4 sides */
+                color:white;
+                border-right:2px solid black;
+                margin-left:23px; /*applied spacing around the container */
+                position:absolute;   /* This adjust the position of the container 2 */
+                left:700px;
+        }
+
+
+        .container-3 {
+                background-color:violet;
+                width: 700px;
+        }
+
+
+        
+        #main-container{
+            background-color: blue;
+            text-align:center;
+        }
+            
+            </style>
+
+
+
+        <div id = "main-container">
+            <div class="container">
+                <h1>Blue</h1>
+                <p>This is a blue container</p>
+            </div>
+
+            <div class="container-1">
+                <h1>Green</h1>
+                <p>This is a green container</p>
+            </div>
+
+            <div class="container-2">
+                <h1>Red</h1>
+                <p>This is a red container</p>
+            </div>
+        </div>
+    </div>
+
 </head>
 <body>
 
-    
-
-    <nav>
         <a href="index.html">Home</a>
-        <a href="about.html">About us</a>
-    </nav>
     
-        <h1>Welcome to the about page</h1>
-        <p class = "container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laboriosam sint quidem, sequi iure dolor perspiciatis. Quo, ipsum. Totam amet saepe magni reprehenderit voluptates unde dolor alias, atque ex aspernatur.</p>
 
-        <h1 id ="box">Welcome to the about us page</h1>
-        <p>This is a simple HTML template</p>
+
+
+
+
+    <br><br><br><br><br><br><br><br><br>
+
+        <h1>Welcome to the about page</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero laboriosam sint quidem, sequi iure dolor perspiciatis. Quo, ipsum. Totam amet saepe magni reprehenderit voluptates unde dolor alias, atque ex aspernatur.</p>
+
 
         <h1 id = "box">Welcome to the about us page</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, nihil recusandae. Magni labore eligendi corporis officiis ipsa nihil fugit explicabo!</p>
+
+
+        
 </body>
 </html>
